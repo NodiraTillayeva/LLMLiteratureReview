@@ -12,6 +12,29 @@ This repository contains a Jupyter Notebook designed to streamline the literatur
 
 ## Getting Started
 
+### Data Sample Input
+| Publication Type | Authors                                  | Article Title                                                                      | Source Title                                                                                | Publication Year | DOI                             | DOI Link                                          |
+|------------------|------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------|----------------------------------|---------------------------------------------------|
+| J                | Citron, DT; Guerra, CA; Dolgert, AJ; ... | Comparing metapopulation dynamics of infectious diseases under different models... | PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA             | 2021             | 10.1073/pnas.2007488118          | http://dx.doi.org/10.1073/pnas.2007488118         |
+| J                | Morita, S; Nakagawa, K                   | Evaluating the impact of human flow on the spread of infectious diseases           | JOURNAL OF THEORETICAL BIOLOGY                                                              | 2023             | 10.1016/j.jtbi.2022.111367       | http://dx.doi.org/10.1016/j.jtbi.2022.111367       |
+| B                | Meredith, HR; Wesolowski, A              | Seasonal human movement and the consequences for infectious disease transmission   | ANIMAL BEHAVIOR AND PARASITISM (Ecology and Evolution of Infectious Diseases Series)         | 2022             | 10.1093/oso/9780192895561.003.0008| http://dx.doi.org/10.1093/oso/9780192895561.003.0008|
+| J                | Phaijoo, GR; Gurung, DB                  | Modeling Impact of Temperature and Human Movement on the Persistence of Dengue ... | COMPUTATIONAL AND MATHEMATICAL METHODS IN MEDICINE                                          | 2017             | 10.1155/2017/1747134             | http://dx.doi.org/10.1155/2017/1747134             |
+| J                | Soto, SM                                 | Human migration and infectious diseases                                            | CLINICAL MICROBIOLOGY AND INFECTION                                                         | 2009             | 10.1111/j.1469-0691.2008.02694.x  | http://dx.doi.org/10.1111/j.1469-0691.2008.02694.x |
+| B                | Bharti, N                                | THE IMPORTANCE OF MOVEMENT IN ENVIRONMENTAL CHANGE AND INFECTIOUS DISEASE          | INFLUENCE OF GLOBAL ENVIRONMENTAL CHANGE ON INFECTIOUS DISEASE DYNAMICS: WORKSHOP SUMMARY    | 2014             | —                                | —                                                 |
+| S                | MATA, L; GARRETT, L; MORSE, S; CASH, R...| THEORETICAL AND SOCIAL APPROACHES .C. HUMAN MOVEMENTS AND THE SPREAD OF INFECTIOUS... | DISEASE IN EVOLUTION: GLOBAL CHANGES AND EMERGENCE OF INFECTIOUS DISEASES                    | 1994             | —                                | —                                                 |
+
+
+### Data Sample output
+| Title                                                                          | DOI                                | Relevance Score | Citation Count | Disease Focus    | Location Focus |
+|--------------------------------------------------------------------------------|------------------------------------|-----------------|----------------|------------------|----------------|
+| Comparing metapopulation dynamics of infectious diseases under different models of human movement | 10.1073/pnas.2007488118            | –               | –              | –                | –              |
+| Evaluating the impact of human flow on the spread of infectious diseases       | 10.1016/j.jtbi.2022.111367         | –               | –              | –                | –              |
+| Modeling Impact of Temperature and Human Movement on the Persistence of Dengue Disease | 10.1155/2017/1747134               | 9.0             | 14.0           | dengue           | global         |
+| Human migration and infectious diseases                                        | 10.1111/j.1469-0691.2008.02694.x   | 8.0             | 43.0           | not specified    | global         |
+| THE IMPORTANCE OF MOVEMENT IN ENVIRONMENTAL CHANGE AND INFECTIOUS DISEASE      | –                                  | –               | –              | –                | –              |
+| Human mobility and the infectious disease transmission: a systematic review    | 10.1080/10095020.2023.2275619      | 9.0             | 4.0            | COVID-19, Influenza, etc. | global |
+
+
 ### Prerequisites
 
 Ensure you have the following installed:
